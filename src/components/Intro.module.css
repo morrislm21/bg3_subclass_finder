@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Satisfy', cursive;
+  color: #f0c070;
+  font-size: 3.5rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-family: 'Cinzel', serif;
+  color: #c8964a;
+  font-size: 1.25rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.description {
+  font-family: 'Crimson Text', serif;
+  color: #e8c688;
+  font-size: 1.2rem;
+  max-width: 36rem;
+  line-height: 1.8;
+  margin-bottom: 3rem;
+}
+
+.startButton {
+  font-family: 'Cinzel', serif;
+  background-color: #7a3b10;
+  border: 2px solid #c17f24;
+  color: #fef3c7;
+  padding: 0.875rem 2.5rem;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: filter 0.2s;
+  letter-spacing: 0.1em;
+}
+
+.startButton:hover {
+  filter: brightness(1.25);
+}

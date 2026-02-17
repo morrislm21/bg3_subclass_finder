@@ -1,0 +1,86 @@
+.pageWrapper {
+  min-height: 100vh;
+  padding: 3rem 0;
+  background-color: #2C1810;
+  background-image: radial-gradient(ellipse at top, #3d2010 0%, #1a0e08 100%);
+}
+
+.contentWrapper {
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+.titleScript {
+  font-family: 'Satisfy', cursive;
+  color: #f0c070;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.titleSerif {
+  font-family: 'Cinzel', serif;
+  color: #c8964a;
+  font-size: 1.25rem;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 0.25rem;
+}
+
+.questionCounter {
+  font-family: 'Crimson Text', serif;
+  color: #a07850;
+  text-align: center;
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+}
+
+.navigationWrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 48rem;
+  margin: 2rem auto 0;
+  padding: 0 1.5rem;
+}
+
+.buttonPrevious {
+  font-family: 'Cinzel', serif;
+  background-color: #3d2010;
+  border: 2px solid #8B5E3C;
+  color: #e8c688;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+.buttonPrevious:hover:not(:disabled) {
+  filter: brightness(1.25);
+}
+
+.buttonPrevious:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.buttonNext {
+  font-family: 'Cinzel', serif;
+  background-color: #7a3b10;
+  border: 2px solid #c17f24;
+  color: #fef9ee;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+.buttonNext:hover:not(:disabled) {
+  filter: brightness(1.25);
+}
+
+.buttonNext:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

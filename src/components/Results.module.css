@@ -1,0 +1,120 @@
+.container {
+  padding: 2rem 1rem;
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: 'Satisfy', cursive;
+  color: #f0c070;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.subtitle {
+  font-family: 'Cinzel', serif;
+  color: #a07850;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Base card styles shared by all */
+.card,
+.rank1,
+.rank2,
+.rank3,
+.rank4,
+.rank5 {
+  font-family: 'Crimson Text', serif;
+  border-radius: 0.5rem;
+  padding: 1rem 1.25rem;
+  border: 2px solid;
+  transition: filter 0.2s;
+  cursor: default;
+}
+
+/* Rest of results */
+.card {
+  background-color: rgba(28, 18, 8, 0.7);
+  border-color: #4a3020;
+  color: #8a6a4a;
+  font-size: 1rem;
+}
+
+/* Rank 5 */
+.rank5 {
+  background-color: rgba(50, 28, 10, 0.75);
+  border-color: #6a4020;
+  color: #b08050;
+  font-size: 1.05rem;
+}
+
+/* Rank 4 */
+.rank4 {
+  background-color: rgba(60, 32, 10, 0.8);
+  border-color: #7a4a25;
+  color: #c09060;
+  font-size: 1.1rem;
+}
+
+/* Rank 3 */
+.rank3 {
+  background-color: rgba(70, 38, 10, 0.85);
+  border-color: #8B5E3C;
+  color: #d0a070;
+  font-size: 1.15rem;
+}
+
+/* Rank 2 */
+.rank2 {
+  background-color: rgba(90, 45, 10, 0.88);
+  border-color: #c17f24;
+  color: #e0b880;
+  font-size: 1.25rem;
+  box-shadow: 0 2px 12px rgba(180, 120, 20, 0.3);
+}
+
+/* Rank 1 */
+.rank1 {
+  background-color: rgba(120, 60, 10, 0.9);
+  border-color: #f0c070;
+  color: #fef3c7;
+  font-size: 1.4rem;
+  box-shadow: 0 4px 20px rgba(220, 160, 30, 0.5);
+}
+
+.rank {
+  font-weight: bold;
+  margin-right: 0.5rem;
+  opacity: 0.8;
+}
+
+.subclassName {
+  font-weight: 600;
+}
+
+.score {
+  float: right;
+  opacity: 0.7;
+  font-size: 0.9em;
+}
